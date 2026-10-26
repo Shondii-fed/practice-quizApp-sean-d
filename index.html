@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" defer></script>
+    <script src="script.js" defer type="module"></script>
+    <style>
+        button {
+            display: flex;
+            flex-direction: column;
+            margin: 0.2em;
+            padding: 0.5em;
+        }
+    </style>
     <title>Quiz App</title>
 </head>
 <body>
@@ -17,7 +25,7 @@
         <button id="option-c"></button>
         <button id="option-d"></button>
         <p id="feedback"></p>
-        <button id="next-question"></button>
+        <button id="next-question">Start Quiz</button>
     </main>
     <footer>
         <p>&copy;2026 This was created by Sean Diggs for Launchcode.</p>
